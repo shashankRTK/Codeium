@@ -47,7 +47,14 @@ h1 {
   display: flex;
   justify-content: center;
 }
-
+@media screen and (max-width: 600px) {
+  .card {
+    width: 98dvw;
+  }
+  .container {
+    padding: 5px;
+  }
+}
 .card::before {
   content: "";
   position: absolute;
